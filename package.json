@@ -1,0 +1,24 @@
+{
+  "name": "full-stack",
+  "version": "1.0.0",
+  "description": "a beginner project to get my hands dirty with web development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "node server.js && npm start",
+    "compile": "node_modules/.bin/babel src --presets react --out-dir static",
+    "watch": "node_modules/.bin/babel src --presets react --out-dir static -watch"
+  },
+  "author": "arsalan ashaar hashmi",
+  "license": "ISC",
+  "keywords": [
+    "full"
+  ],
+  "dependencies": {
+    "express": "^4.19.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
